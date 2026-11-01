@@ -1,0 +1,30 @@
+import pdfplumber
+import PyPDF2
+import os
+
+# Chemin vers ton fichier (adapte selon ton PC)
+chemin_pdf = r"data\CCTP\CCTP LOT 01B GROS OEUVRE MACONNERIE.pdf"
+
+print("=== TEST 1 : PyPDF2 ===")
+try:
+    with open(chemin_pdf, 'rb') as f:
+        reader = PyPDF2.PdfReader(f)
+        print(f"Nombre de pages : {len(reader.pages)}")
+        # Affiche les 3 premières pages
+        for i, page in enumerate(reader.pages[:3]):
+            texte = page.extract_text()
+            print(f"\n--- Page {i+1} ---")
+            print(texte[:1000] if texte else "[Aucun texte extrait]")
+except Exception as e:
+    print(f"Erreur PyPDF2 : {e}")
+
+print("\n\n=== TEST 2 : pdfplumber ===")
+try:
+    with pdfplumber.open(chemin_pdf) as pdf:
+        print(f"Nombre de pages : {len(pdf.pages)}")
+        for i, page in enumerate(pdf.pages[:3]):
+            texte = page.extract_text()
+            print(f"\n--- Page {i+1} ---")
+            print(texte[:1000] if texte else "[Aucun texte extrait]")
+except Exception as e:
+    print(f"Erreur pdfplumber : {e}")

@@ -1,0 +1,107 @@
+{
+  "statut": "provisoire",
+  "avancement": {
+    "valides": 10,
+    "total": 27,
+    "pourcentage": 37.0
+  },
+  "metriques_globales": {
+    "vrais_positifs": 44,
+    "faux_positifs": 0,
+    "faux_negatifs": 2,
+    "precision": 1.0,
+    "rappel": 0.9565,
+    "f1": 0.9778
+  },
+  "par_categorie": {
+    "classes_beton": {
+      "vrais_positifs": 2,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "diametres": {
+      "vrais_positifs": 4,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "dimensions": {
+      "vrais_positifs": 1,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "dosages": {
+      "vrais_positifs": 4,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "epaisseurs": {
+      "vrais_positifs": 1,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "materiaux": {
+      "vrais_positifs": 15,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "mesures": {
+      "vrais_positifs": 12,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "normes": {
+      "vrais_positifs": 2,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "ouvrages_equipements": {
+      "vrais_positifs": 3,
+      "faux_positifs": 0,
+      "faux_negatifs": 0,
+      "precision": 1.0,
+      "rappel": 1.0,
+      "f1": 1.0
+    },
+    "proprietes": {
+      "vrais_positifs": 0,
+      "faux_positifs": 0,
+      "faux_negatifs": 1,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0
+    },
+    "type_ciment": {
+      "vrais_positifs": 0,
+      "faux_positifs": 0,
+      "faux_negatifs": 1,
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0
+    }
+  },
+  "avertissement": "Métriques provisoires : terminer toutes les validations avant de conclure."
+}

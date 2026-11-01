@@ -1,0 +1,1902 @@
+[
+  {
+    "id_validation": 1,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 11,
+    "libelle": "ASSISE BETON COULE A PLEINES FOUILLES",
+    "texte_source": " Béton hydrofugé dosé à 350 kg de ciment type CPJ. Classe de résistance minimale C25/30 suivant NF EN 206-1,",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "ciment"
+      ],
+      "proprietes": [
+        "hydrofugé"
+      ],
+      "type_ciment": [
+        "CPJ"
+      ],
+      "normes": [
+        "NF EN 206-1"
+      ],
+      "classes_beton": [
+        "C25/30"
+      ],
+      "dosages": [
+        "350 kg de ciment"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "corrige",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {
+        "proprietes": [
+          "hydrofugé"
+        ],
+        "type_ciment": [
+          "CPJ"
+        ]
+      },
+      "commentaire": "Le matériau, la norme, la classe et le dosage sont corrects. Il manque la propriété hydrofugé et le type de ciment CPJ."
+    },
+    "donnees_source": {
+      "section": "4-4",
+      "texte_source": " Béton hydrofugé dosé à 350 kg de ciment type CPJ. Classe de résistance minimale C25/30 suivant NF EN 206-1,",
+      "classe_beton": [
+        "C25/30"
+      ],
+      "norme": [
+        "NF EN 206-1"
+      ],
+      "dosage": [
+        "350 kg de ciment"
+      ]
+    }
+  },
+  {
+    "id_validation": 2,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 13,
+    "libelle": "RESEAUX COURANTS FORTS",
+    "texte_source": "Fourreau PVC aiguillé ø63mm, ø 110mm, ø160mm :",
+    "predictions_nlp": {
+      "materiaux": [
+        "PVC"
+      ],
+      "ouvrages_equipements": [
+        "réseau"
+      ],
+      "diametres": [
+        "ø63mm",
+        "ø 110 mm",
+        "ø160mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 110.0,
+          "unite": "mm",
+          "texte_source": "110mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5-7",
+      "texte_source": "Fourreau PVC aiguillé ø63mm, ø 110mm, ø160mm :",
+      "diametre": [
+        "ø63mm",
+        "ø 110mm",
+        "ø160mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 3,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 15,
+    "libelle": "BETON BALAYE",
+    "texte_source": " Béton hydrofugé dosé à 350 kg de ciment type CPJ. Classe de résistance minimale C25/30 suivant NF EN 206-1,",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "ciment"
+      ],
+      "proprietes": [
+        "hydrofugé"
+      ],
+      "type_ciment": [
+        "CPJ"
+      ],
+      "normes": [
+        "NF EN 206-1"
+      ],
+      "classes_beton": [
+        "C25/30"
+      ],
+      "dosages": [
+        "350 kg de ciment"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5-11",
+      "texte_source": " Béton hydrofugé dosé à 350 kg de ciment type CPJ. Classe de résistance minimale C25/30 suivant NF EN 206-1,",
+      "classe_beton": [
+        "C25/30"
+      ],
+      "norme": [
+        "NF EN 206-1"
+      ],
+      "dosage": [
+        "350 kg de ciment"
+      ]
+    }
+  },
+  {
+    "id_validation": 4,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 15,
+    "libelle": "TERRASSE BOIS",
+    "texte_source": " Poteau en bois 14 x 14 cm (H = 50 cm)",
+    "predictions_nlp": {
+      "materiaux": [
+        "bois"
+      ],
+      "ouvrages_equipements": [
+        "poteau"
+      ],
+      "dimensions": [
+        "14 x 14 cm"
+      ],
+      "mesures": [
+        {
+          "valeur": 14.0,
+          "unite": "cm",
+          "texte_source": "14 cm"
+        },
+        {
+          "valeur": 50.0,
+          "unite": "cm",
+          "texte_source": "50 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "6-2",
+      "texte_source": " Poteau en bois 14 x 14 cm (H = 50 cm)",
+      "dimension": [
+        "14 x 14 cm"
+      ]
+    }
+  },
+  {
+    "id_validation": 5,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 9,
+    "libelle": "Béton de dallage",
+    "texte_source": "adhérence disposé tous les 20 cm, ou par un treillis soudé maille 150 mm, diamètre 3,5 mm.",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton"
+      ],
+      "diametres": [
+        "diamètre 3.5 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 20.0,
+          "unite": "cm",
+          "texte_source": "20 cm"
+        },
+        {
+          "valeur": 150.0,
+          "unite": "mm",
+          "texte_source": "150 mm"
+        },
+        {
+          "valeur": 3.5,
+          "unite": "mm",
+          "texte_source": "3,5 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5.3",
+      "texte_source": "adhérence disposé tous les 20 cm, ou par un treillis soudé maille 150 mm, diamètre 3,5 mm.",
+      "diametre": [
+        "diamètre 3,5 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 6,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 10,
+    "libelle": "Béton armé",
+    "texte_source": "Dosé à 350 kg/m3 de ciment CPA 45 avec agrégats de quartz ou de granite provenant de carrières",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé",
+        "ciment"
+      ],
+      "dosages": [
+        "350 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5.5",
+      "texte_source": "Dosé à 350 kg/m3 de ciment CPA 45 avec agrégats de quartz ou de granite provenant de carrières",
+      "dosage": [
+        "350 kg/m3"
+      ]
+    }
+  },
+  {
+    "id_validation": 7,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 9,
+    "libelle": "Béton de dallage",
+    "texte_source": "Béton vibré dosé à 300 kg/m3 de ciment CPA 45 avec agrégats de quartz ou de granite provenant de",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "ciment"
+      ],
+      "dosages": [
+        "300 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 300.0,
+          "unite": "kg",
+          "texte_source": "300 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5.3",
+      "texte_source": "Béton vibré dosé à 300 kg/m3 de ciment CPA 45 avec agrégats de quartz ou de granite provenant de",
+      "dosage": [
+        "300 kg/m3"
+      ]
+    }
+  },
+  {
+    "id_validation": 8,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 9,
+    "libelle": "Béton de dallage",
+    "texte_source": "devra en outre être renforcé par un quadrillage en fer de diamètre 6 mm en acier doux ou haute",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "acier"
+      ],
+      "diametres": [
+        "diamètre 6 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 6.0,
+          "unite": "mm",
+          "texte_source": "6 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5.3",
+      "texte_source": "devra en outre être renforcé par un quadrillage en fer de diamètre 6 mm en acier doux ou haute",
+      "diametre": [
+        "diamètre 6 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 9,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP LOT 01B GROS OEUVRE MACONNERIE STRUCTURE METALLIQUE.pdf",
+    "page": 15,
+    "libelle": "Béton",
+    "texte_source": "dalle de compression en béton dosé à 350 kg/m3 de 16 cm d'épaisseur suivant les préconisations du BET structure",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton"
+      ],
+      "ouvrages_equipements": [
+        "dalle"
+      ],
+      "dosages": [
+        "350 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        },
+        {
+          "valeur": 16.0,
+          "unite": "cm",
+          "texte_source": "16 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "entites_corrigees": {
+        "ouvrages_equipements": [
+          "dalle"
+        ],
+        "mesures": [
+          {
+            "valeur": 350.0,
+            "unite": "kg",
+            "texte_source": "350 kg"
+          },
+          {
+            "valeur": 16.0,
+            "unite": "cm",
+            "texte_source": "16 cm"
+          }
+        ],
+        "materiaux": [
+          "béton"
+        ],
+        "dosages": [
+          "350 kg/m³"
+        ]
+      },
+      "commentaire": "",
+      "date_validation": "2026-08-26T21:29:01+01:00"
+    },
+    "donnees_source": {
+      "section": "1.7.1",
+      "texte_source": "dalle de compression en béton dosé à 350 kg/m3 de 16 cm d'épaisseur suivant les préconisations du BET structure",
+      "dosage": [
+        "350 kg/m3"
+      ],
+      "epaisseur": [
+        "16 cm d'épaisseur"
+      ]
+    }
+  },
+  {
+    "id_validation": 10,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP LOT 01B GROS OEUVRE MACONNERIE STRUCTURE METALLIQUE.pdf",
+    "page": 19,
+    "libelle": "Murs sandwich",
+    "texte_source": "- Un voile intérieur dont les éléments porteurs en béton armé d’épaisseur de 20 cm, solidaire du reste de la",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé"
+      ],
+      "ouvrages_equipements": [
+        "voile"
+      ],
+      "epaisseurs": [
+        "épaisseur de 20 cm"
+      ],
+      "mesures": [
+        {
+          "valeur": 20.0,
+          "unite": "cm",
+          "texte_source": "20 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "2.1.1",
+      "texte_source": "- Un voile intérieur dont les éléments porteurs en béton armé d’épaisseur de 20 cm, solidaire du reste de la",
+      "epaisseur": [
+        "épaisseur de 20 cm"
+      ]
+    }
+  },
+  {
+    "id_validation": 11,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP LOT 01B GROS OEUVRE MACONNERIE STRUCTURE METALLIQUE.pdf",
+    "page": 19,
+    "libelle": "Murs sandwich",
+    "texte_source": "- Des épingles de liaison en acier inoxydable, armatures 500 MPa pour béton armé, à mettre en place au",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé",
+        "acier"
+      ],
+      "ouvrages_equipements": [
+        "armature"
+      ],
+      "resistances": [
+        "500 MPa"
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "2.1.1",
+      "texte_source": "- Des épingles de liaison en acier inoxydable, armatures 500 MPa pour béton armé, à mettre en place au",
+      "resistance": [
+        "500 MPa"
+      ]
+    }
+  },
+  {
+    "id_validation": 12,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP LOT 01B GROS OEUVRE MACONNERIE STRUCTURE METALLIQUE.pdf",
+    "page": 12,
+    "libelle": "Terrassements en pleine masse y compris rocher fracturé",
+    "texte_source": "matériau en place sera de compacité´ suffisante lorsque la densité´ en place sera égale a` 95% au moins de celle",
+    "predictions_nlp": {},
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "1.2.1",
+      "texte_source": "matériau en place sera de compacité´ suffisante lorsque la densité´ en place sera égale a` 95% au moins de celle",
+      "pourcentage": [
+        "95%"
+      ]
+    }
+  },
+  {
+    "id_validation": 13,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP-Lot-11-V8.0-Plomberie-Sanitaires.pdf",
+    "page": 10,
+    "libelle": "Nature des canalisations",
+    "texte_source": "• Épaisseur minimale 1 mm",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "canalisation"
+      ],
+      "epaisseurs": [
+        "Épaisseur minimale 1 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 1.0,
+          "unite": "mm",
+          "texte_source": "1 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "2.6.3",
+      "texte_source": "• Épaisseur minimale 1 mm",
+      "epaisseur": [
+        "Épaisseur minimale 1 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 14,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP-Lot-11-V8.0-Plomberie-Sanitaires.pdf",
+    "page": 10,
+    "libelle": "Nature des canalisations",
+    "texte_source": "• Épaisseur minimale 1 mm",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "canalisation"
+      ],
+      "epaisseurs": [
+        "Épaisseur minimale 1 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 1.0,
+          "unite": "mm",
+          "texte_source": "1 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "2.6.3",
+      "texte_source": "• Épaisseur minimale 1 mm",
+      "epaisseur": [
+        "Épaisseur minimale 1 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 15,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP-Lot-11-V8.0-Plomberie-Sanitaires.pdf",
+    "page": 10,
+    "libelle": "Nature des canalisations",
+    "texte_source": "• Espacements inférieurs à 0,8 m pour les diamètres inférieurs à 16 mm et à 1,3 m au-dessus.",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "canalisation"
+      ],
+      "mesures": [
+        {
+          "valeur": 16.0,
+          "unite": "mm",
+          "texte_source": "16 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "2.6.3",
+      "texte_source": "• Espacements inférieurs à 0,8 m pour les diamètres inférieurs à 16 mm et à 1,3 m au-dessus.",
+      "diametre": [
+        "diamètres inférieurs à 16 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 16,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP-Lot-11-V8.0-Plomberie-Sanitaires.pdf",
+    "page": 19,
+    "libelle": "Appareillages sanitaires",
+    "texte_source": "Pour rouleau papier WC ᴓ 26 cm",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "sanitaire"
+      ],
+      "mesures": [
+        {
+          "valeur": 26.0,
+          "unite": "cm",
+          "texte_source": "26 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "4.7",
+      "texte_source": "Pour rouleau papier WC ᴓ 26 cm",
+      "diametre": [
+        "ᴓ 26 cm"
+      ]
+    }
+  },
+  {
+    "id_validation": 17,
+    "type_document": "DQE",
+    "fichier_source": "Cadre de devis_0.pdf",
+    "page": 1,
+    "libelle": "Enduit au mortier de ciment épaisseur 2,5 cm sur faces intérieures et extérieures des murs",
+    "texte_source": "1.5 Enduit au mortier de ciment épaisseur 2,5 cm sur faces intérieures et extérieures des murs m² 184",
+    "predictions_nlp": {
+      "materiaux": [
+        "mortier",
+        "ciment",
+        "enduit"
+      ],
+      "epaisseurs": [
+        "épaisseur 2.5 cm"
+      ],
+      "mesures": [
+        {
+          "valeur": 2.5,
+          "unite": "cm",
+          "texte_source": "2,5 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "1.5",
+      "unite": "m²",
+      "quantite": 184.0,
+      "prix_unitaire": null,
+      "prix_total": null,
+      "controle_calcul": "incomplet",
+      "texte_source": "1.5 Enduit au mortier de ciment épaisseur 2,5 cm sur faces intérieures et extérieures des murs m² 184"
+    }
+  },
+  {
+    "id_validation": 18,
+    "type_document": "DQE",
+    "fichier_source": "Cadre de devis_0.pdf",
+    "page": 1,
+    "libelle": "Béton armé dosé à 350 kg/m3 pour raidisseurs",
+    "texte_source": "1.2 Béton armé dosé à 350 kg/m3 pour raidisseurs m3 0,21",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé"
+      ],
+      "dosages": [
+        "350 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "1.2",
+      "unite": "m3",
+      "quantite": 0.21,
+      "prix_unitaire": null,
+      "prix_total": null,
+      "controle_calcul": "incomplet",
+      "texte_source": "1.2 Béton armé dosé à 350 kg/m3 pour raidisseurs m3 0,21"
+    }
+  },
+  {
+    "id_validation": 19,
+    "type_document": "DQE",
+    "fichier_source": "Cadre de devis_0.pdf",
+    "page": 1,
+    "libelle": "Béton armé dosé à 350 kg/m3 pour chaînages et linteaux",
+    "texte_source": "1.3 Béton armé dosé à 350 kg/m3 pour chaînages et linteaux m3 0,552",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé"
+      ],
+      "dosages": [
+        "350 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "1.3",
+      "unite": "m3",
+      "quantite": 0.552,
+      "prix_unitaire": null,
+      "prix_total": null,
+      "controle_calcul": "incomplet",
+      "texte_source": "1.3 Béton armé dosé à 350 kg/m3 pour chaînages et linteaux m3 0,552"
+    }
+  },
+  {
+    "id_validation": 20,
+    "type_document": "DQE",
+    "fichier_source": "Cadre de devis_0.pdf",
+    "page": 1,
+    "libelle": "Installation du chantier, amenée et repli du matériel y compris nettoyage",
+    "texte_source": "0 Installation du chantier, amenée et repli du matériel y compris nettoyage ens 1",
+    "predictions_nlp": {},
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "0",
+      "unite": "ens",
+      "quantite": 1.0,
+      "prix_unitaire": null,
+      "prix_total": null,
+      "controle_calcul": "incomplet",
+      "texte_source": "0 Installation du chantier, amenée et repli du matériel y compris nettoyage ens 1"
+    }
+  },
+  {
+    "id_validation": 21,
+    "type_document": "DQE",
+    "fichier_source": "document_Devis.pdf",
+    "page": 1,
+    "libelle": "Béton de forme de dallage au sol, épaisseur 8 cm dosé à 300kg/m3",
+    "texte_source": "3.12 Béton de forme de dallage au sol, épaisseur 8 cm dosé à 300kg/m3 m3 30,700 65 000 1 995 500",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton"
+      ],
+      "dosages": [
+        "300 kg/m3"
+      ],
+      "epaisseurs": [
+        "épaisseur 8 cm"
+      ],
+      "mesures": [
+        {
+          "valeur": 8.0,
+          "unite": "cm",
+          "texte_source": "8 cm"
+        },
+        {
+          "valeur": 300.0,
+          "unite": "kg",
+          "texte_source": "300kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "3.12",
+      "unite": "m3",
+      "quantite": 30.7,
+      "prix_unitaire": 65000.0,
+      "prix_total": 1995500.0,
+      "controle_calcul": "valide",
+      "texte_source": "3.12 Béton de forme de dallage au sol, épaisseur 8 cm dosé à 300kg/m3 m3 30,700 65 000 1 995 500"
+    }
+  },
+  {
+    "id_validation": 22,
+    "type_document": "DQE",
+    "fichier_source": "document_Devis.pdf",
+    "page": 1,
+    "libelle": "Béton armé pour poteaux dosé 350 kg/m3",
+    "texte_source": "3.4 Béton armé pour poteaux dosé 350 kg/m3 m3 6,190 110 000 6 80 900",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé"
+      ],
+      "ouvrages_equipements": [
+        "poteau"
+      ],
+      "dosages": [
+        "350 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "3.4",
+      "unite": "m3",
+      "quantite": 6.19,
+      "prix_unitaire": 110000.0,
+      "prix_total": 680900.0,
+      "controle_calcul": "valide",
+      "texte_source": "3.4 Béton armé pour poteaux dosé 350 kg/m3 m3 6,190 110 000 6 80 900"
+    }
+  },
+  {
+    "id_validation": 23,
+    "type_document": "DQE",
+    "fichier_source": "document_Devis.pdf",
+    "page": 1,
+    "libelle": "Béton armé pour semelles dosé à 350 kg/m3",
+    "texte_source": "3.2 Béton armé pour semelles dosé à 350 kg/m3 m3 4,610 90 000 4 14 900",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé"
+      ],
+      "dosages": [
+        "350 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "3.2",
+      "unite": "m3",
+      "quantite": 4.61,
+      "prix_unitaire": 90000.0,
+      "prix_total": 414900.0,
+      "controle_calcul": "valide",
+      "texte_source": "3.2 Béton armé pour semelles dosé à 350 kg/m3 m3 4,610 90 000 4 14 900"
+    }
+  },
+  {
+    "id_validation": 24,
+    "type_document": "DQE",
+    "fichier_source": "document_Devis.pdf",
+    "page": 1,
+    "libelle": "Installation et repli de chantier",
+    "texte_source": "1.1 Installation et repli de chantier Ens. 1 300 000 3 00 000",
+    "predictions_nlp": {},
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "1.1",
+      "unite": "Ens.",
+      "quantite": 1.0,
+      "prix_unitaire": 300000.0,
+      "prix_total": 300000.0,
+      "controle_calcul": "valide",
+      "texte_source": "1.1 Installation et repli de chantier Ens. 1 300 000 3 00 000"
+    }
+  },
+  {
+    "id_validation": 25,
+    "type_document": "DQE",
+    "fichier_source": "modele-devis-batiment-pdf.pdf",
+    "page": 1,
+    "libelle": "Produit A",
+    "texte_source": "Produit A 4,00 200,00€ 800,00€",
+    "predictions_nlp": {},
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "1",
+      "unite": null,
+      "quantite": 4.0,
+      "prix_unitaire": 200.0,
+      "prix_total": 800.0,
+      "controle_calcul": "valide",
+      "texte_source": "Produit A 4,00 200,00€ 800,00€"
+    }
+  },
+  {
+    "id_validation": 26,
+    "type_document": "DQE",
+    "fichier_source": "modele-devis-batiment-pdf.pdf",
+    "page": 1,
+    "libelle": "Produit B",
+    "texte_source": "Produit B 2,00 300,00€ 600,00€",
+    "predictions_nlp": {},
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "2",
+      "unite": null,
+      "quantite": 2.0,
+      "prix_unitaire": 300.0,
+      "prix_total": 600.0,
+      "controle_calcul": "valide",
+      "texte_source": "Produit B 2,00 300,00€ 600,00€"
+    }
+  },
+  {
+    "id_validation": 27,
+    "type_document": "DQE",
+    "fichier_source": "modele-devis-batiment-pdf.pdf",
+    "page": 1,
+    "libelle": "Service C",
+    "texte_source": "Service C 4,00 100,00€ 400,00€",
+    "predictions_nlp": {},
+    "validation": {
+      "statut": "valide",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "entites_corrigees": {},
+      "commentaire": "",
+      "date_validation": "2026-08-11T09:12:15+01:00"
+    },
+    "donnees_source": {
+      "numero_poste": "3",
+      "unite": null,
+      "quantite": 4.0,
+      "prix_unitaire": 100.0,
+      "prix_total": 400.0,
+      "controle_calcul": "valide",
+      "texte_source": "Service C 4,00 100,00€ 400,00€"
+    }
+  },
+  {
+    "id_validation": 28,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 13,
+    "libelle": "BRANCHEMENTS RESEAUX COURANTS FORTS",
+    "texte_source": " La fourniture et pose de câbles triphasés cuivre sous fourreau Ø 160 mm entre le coffret extérieur et le TGBT",
+    "predictions_nlp": {
+      "materiaux": [
+        "cuivre"
+      ],
+      "ouvrages_equipements": [
+        "réseau"
+      ],
+      "diametres": [
+        "Ø 160 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 160.0,
+          "unite": "mm",
+          "texte_source": "160 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5-8",
+      "texte_source": " La fourniture et pose de câbles triphasés cuivre sous fourreau Ø 160 mm entre le coffret extérieur et le TGBT",
+      "diametre": [
+        "Ø 160 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 29,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 9,
+    "libelle": "Gros béton et béton cyclopéen",
+    "texte_source": "Béton dosé à 250 kg/m3 de ciment mélangé avec du sable et de gros éléments de quartz ou de granite",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "ciment"
+      ],
+      "dosages": [
+        "250 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 250.0,
+          "unite": "kg",
+          "texte_source": "250 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5.2",
+      "texte_source": "Béton dosé à 250 kg/m3 de ciment mélangé avec du sable et de gros éléments de quartz ou de granite",
+      "dosage": [
+        "250 kg/m3"
+      ]
+    }
+  },
+  {
+    "id_validation": 30,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP LOT 01B GROS OEUVRE MACONNERIE STRUCTURE METALLIQUE.pdf",
+    "page": 35,
+    "libelle": "Couverture thermo-acoustique en acier du bâtiment de l’extension",
+    "texte_source": "- Chape élastomère avec armature polyester de 140 g/m2, épaisseur 2,5 mm mini, fixée mécaniquement dans le",
+    "predictions_nlp": {
+      "materiaux": [
+        "acier"
+      ],
+      "ouvrages_equipements": [
+        "armature"
+      ],
+      "epaisseurs": [
+        "épaisseur 2.5 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 140.0,
+          "unite": "g",
+          "texte_source": "140 g"
+        },
+        {
+          "valeur": 2.5,
+          "unite": "mm",
+          "texte_source": "2,5 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "4.2",
+      "texte_source": "- Chape élastomère avec armature polyester de 140 g/m2, épaisseur 2,5 mm mini, fixée mécaniquement dans le",
+      "epaisseur": [
+        "épaisseur 2,5 mm"
+      ],
+      "grammage": [
+        "140 g/m2"
+      ]
+    }
+  },
+  {
+    "id_validation": 31,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP-Lot-11-V8.0-Plomberie-Sanitaires.pdf",
+    "page": 20,
+    "libelle": "Appareillages sanitaires",
+    "texte_source": "En tube inox thermolaqué blanc ᴓ 32 mm",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "sanitaire"
+      ],
+      "mesures": [
+        {
+          "valeur": 32.0,
+          "unite": "mm",
+          "texte_source": "32 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "4.7",
+      "texte_source": "En tube inox thermolaqué blanc ᴓ 32 mm",
+      "diametre": [
+        "ᴓ 32 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 32,
+    "type_document": "DQE",
+    "fichier_source": "Cadre de devis_0.pdf",
+    "page": 1,
+    "libelle": "Etanchéité SEL mono composant phase aqueuse en sous couche des carrelages au sol y compris relevé mural de 10cm pour locaux humides (hors box de douche) et sur un 1 m2 dans la zone extension de la salle de gym",
+    "texte_source": "1.6 Etanchéité SEL mono composant phase aqueuse en sous couche des carrelages au sol y compris relevé mural de 10cm pour locaux humides (hors box de douche) et sur un 1 m2 dans la zone extension de la salle de gym m² 27,56",
+    "predictions_nlp": {
+      "mesures": [
+        {
+          "valeur": 10.0,
+          "unite": "cm",
+          "texte_source": "10cm"
+        },
+        {
+          "valeur": 1.0,
+          "unite": "m²",
+          "texte_source": "1 m2"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "1.6",
+      "unite": "m²",
+      "quantite": 27.56,
+      "prix_unitaire": null,
+      "prix_total": null,
+      "controle_calcul": "incomplet",
+      "texte_source": "1.6 Etanchéité SEL mono composant phase aqueuse en sous couche des carrelages au sol y compris relevé mural de 10cm pour locaux humides (hors box de douche) et sur un 1 m2 dans la zone extension de la salle de gym m² 27,56"
+    }
+  },
+  {
+    "id_validation": 33,
+    "type_document": "DQE",
+    "fichier_source": "document_Devis.pdf",
+    "page": 1,
+    "libelle": "Béton armé pour poutres dosé à 350 kg/m3",
+    "texte_source": "3.3 Béton armé pour poutres dosé à 350 kg/m3 m3 7,169 110 000 7 88 590",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé"
+      ],
+      "dosages": [
+        "350 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "3.3",
+      "unite": "m3",
+      "quantite": 7.169,
+      "prix_unitaire": 110000.0,
+      "prix_total": 788590.0,
+      "controle_calcul": "valide",
+      "texte_source": "3.3 Béton armé pour poutres dosé à 350 kg/m3 m3 7,169 110 000 7 88 590"
+    }
+  },
+  {
+    "id_validation": 34,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 13,
+    "libelle": "RESEAUX COURANTS FORTS",
+    "texte_source": "remplie, ils doivent être enrobés de béton d’épaisseur 15cm",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton"
+      ],
+      "ouvrages_equipements": [
+        "réseau"
+      ],
+      "epaisseurs": [
+        "épaisseur 15 cm"
+      ],
+      "mesures": [
+        {
+          "valeur": 15.0,
+          "unite": "cm",
+          "texte_source": "15cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5-7",
+      "texte_source": "remplie, ils doivent être enrobés de béton d’épaisseur 15cm",
+      "epaisseur": [
+        "épaisseur 15cm"
+      ]
+    }
+  },
+  {
+    "id_validation": 35,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 13,
+    "libelle": ". PORTE METALLIQUE PLEINE TOILETTES EXTERIEURES",
+    "texte_source": " Deux (02) traverses centrales espacées de 30 cm en tube carré de 40 mm, épaisseur 2 mm",
+    "predictions_nlp": {
+      "epaisseurs": [
+        "épaisseur 2 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 30.0,
+          "unite": "cm",
+          "texte_source": "30 cm"
+        },
+        {
+          "valeur": 40.0,
+          "unite": "mm",
+          "texte_source": "40 mm"
+        },
+        {
+          "valeur": 2.0,
+          "unite": "mm",
+          "texte_source": "2 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "2.1",
+      "texte_source": " Deux (02) traverses centrales espacées de 30 cm en tube carré de 40 mm, épaisseur 2 mm",
+      "epaisseur": [
+        "épaisseur 2 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 36,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP LOT 01B GROS OEUVRE MACONNERIE STRUCTURE METALLIQUE.pdf",
+    "page": 35,
+    "libelle": "Couverture thermo-acoustique en acier du bâtiment de l’extension",
+    "texte_source": "- Chape élastomère avec armature polyester de 180 g/M2, épaisseur 2,5 mm, auto protégée par paillettes",
+    "predictions_nlp": {
+      "materiaux": [
+        "acier"
+      ],
+      "ouvrages_equipements": [
+        "armature"
+      ],
+      "epaisseurs": [
+        "épaisseur 2.5 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 180.0,
+          "unite": "g",
+          "texte_source": "180 g"
+        },
+        {
+          "valeur": 2.5,
+          "unite": "mm",
+          "texte_source": "2,5 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "4.2",
+      "texte_source": "- Chape élastomère avec armature polyester de 180 g/M2, épaisseur 2,5 mm, auto protégée par paillettes",
+      "epaisseur": [
+        "épaisseur 2,5 mm"
+      ],
+      "grammage": [
+        "180 g/M2"
+      ]
+    }
+  },
+  {
+    "id_validation": 37,
+    "type_document": "DQE",
+    "fichier_source": "Cadre de devis_0.pdf",
+    "page": 1,
+    "libelle": "Maçonnerie en élévation d'agglos creux de 10x20x40 cm d'épaisseur hourdés au mortier de ciment",
+    "texte_source": "1.4 Maçonnerie en élévation d'agglos creux de 10x20x40 cm d'épaisseur hourdés au mortier de ciment m² 92",
+    "predictions_nlp": {
+      "materiaux": [
+        "mortier",
+        "ciment"
+      ],
+      "dimensions": [
+        "10x20x40 cm"
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "1.4",
+      "unite": "m²",
+      "quantite": 92.0,
+      "prix_unitaire": null,
+      "prix_total": null,
+      "controle_calcul": "incomplet",
+      "texte_source": "1.4 Maçonnerie en élévation d'agglos creux de 10x20x40 cm d'épaisseur hourdés au mortier de ciment m² 92"
+    }
+  },
+  {
+    "id_validation": 38,
+    "type_document": "DQE",
+    "fichier_source": "document_Devis.pdf",
+    "page": 1,
+    "libelle": "Béton armé pour longrine dosé à 350 kg/m3",
+    "texte_source": "3.5 Béton armé pour longrine dosé à 350 kg/m3 m3 5,289 110 000 5 81 790",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé"
+      ],
+      "dosages": [
+        "350 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 350.0,
+          "unite": "kg",
+          "texte_source": "350 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "3.5",
+      "unite": "m3",
+      "quantite": 5.289,
+      "prix_unitaire": 110000.0,
+      "prix_total": 581790.0,
+      "controle_calcul": "valide",
+      "texte_source": "3.5 Béton armé pour longrine dosé à 350 kg/m3 m3 5,289 110 000 5 81 790"
+    }
+  },
+  {
+    "id_validation": 39,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 10,
+    "libelle": "RESEAUX SOUS MODULES",
+    "texte_source": "Fourniture et pose de canalisation PVC ø 100/125 mm pour réseaux EU/EV, comprenant notamment :",
+    "predictions_nlp": {
+      "materiaux": [
+        "PVC"
+      ],
+      "ouvrages_equipements": [
+        "canalisation",
+        "réseau"
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "4-2",
+      "texte_source": "Fourniture et pose de canalisation PVC ø 100/125 mm pour réseaux EU/EV, comprenant notamment :",
+      "diametre": [
+        "ø 100"
+      ]
+    }
+  },
+  {
+    "id_validation": 40,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 9,
+    "libelle": "Béton de propreté",
+    "texte_source": "Béton de type B0 suivant CPT, épaisseur de 5 cm minimum.",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton"
+      ],
+      "epaisseurs": [
+        "épaisseur de 5 cm"
+      ],
+      "mesures": [
+        {
+          "valeur": 5.0,
+          "unite": "cm",
+          "texte_source": "5 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5.1",
+      "texte_source": "Béton de type B0 suivant CPT, épaisseur de 5 cm minimum.",
+      "epaisseur": [
+        "épaisseur de 5 cm"
+      ]
+    }
+  },
+  {
+    "id_validation": 41,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP LOT 01B GROS OEUVRE MACONNERIE STRUCTURE METALLIQUE.pdf",
+    "page": 19,
+    "libelle": "Murs sandwich",
+    "texte_source": "- Une peau extérieure de parement en béton armé appuyée en partie basse, d’épaisseur 12 cm",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton",
+        "béton armé"
+      ],
+      "epaisseurs": [
+        "épaisseur 12 cm"
+      ],
+      "mesures": [
+        {
+          "valeur": 12.0,
+          "unite": "cm",
+          "texte_source": "12 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "2.1.1",
+      "texte_source": "- Une peau extérieure de parement en béton armé appuyée en partie basse, d’épaisseur 12 cm",
+      "epaisseur": [
+        "épaisseur 12 cm"
+      ]
+    }
+  },
+  {
+    "id_validation": 42,
+    "type_document": "DQE",
+    "fichier_source": "Cadre de devis_0.pdf",
+    "page": 2,
+    "libelle": "Fourniture et pose d'un système d'extraction d'air pour toilettes et vestiaire avec les caractéristiques minimales suivantes : - caisson d'extraction d'un débit d'air minimum de 150m3/h ; - niveau de bruit inférieur à 45 dBa ; - 4 bouches d'extraction ; - réseau de gaine.",
+    "texte_source": "2.16 Fourniture et pose d'un système d'extraction d'air pour toilettes et vestiaire avec les caractéristiques minimales suivantes : - caisson d'extraction d'un débit d'air minimum de 150m3/h ; - niveau de bruit inférieur à 45 dBa ; - 4 bouches d'extraction ; - réseau de gaine. ens 1",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "réseau"
+      ],
+      "mesures": [
+        {
+          "valeur": 150.0,
+          "unite": "m³",
+          "texte_source": "150m3"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "2.16",
+      "unite": "ens",
+      "quantite": 1.0,
+      "prix_unitaire": null,
+      "prix_total": null,
+      "controle_calcul": "incomplet",
+      "texte_source": "2.16 Fourniture et pose d'un système d'extraction d'air pour toilettes et vestiaire avec les caractéristiques minimales suivantes : - caisson d'extraction d'un débit d'air minimum de 150m3/h ; - niveau de bruit inférieur à 45 dBa ; - 4 bouches d'extraction ; - réseau de gaine. ens 1"
+    }
+  },
+  {
+    "id_validation": 43,
+    "type_document": "DQE",
+    "fichier_source": "document_Devis.pdf",
+    "page": 1,
+    "libelle": "Béton de propreté dosé à 150 kg/m3",
+    "texte_source": "3.1 Béton de propreté dosé à 150 kg/m3 m3 4,739 48 500 2 29 842",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton"
+      ],
+      "dosages": [
+        "150 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 150.0,
+          "unite": "kg",
+          "texte_source": "150 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "3.1",
+      "unite": "m3",
+      "quantite": 4.739,
+      "prix_unitaire": 48500.0,
+      "prix_total": 229842.0,
+      "controle_calcul": "valide",
+      "texte_source": "3.1 Béton de propreté dosé à 150 kg/m3 m3 4,739 48 500 2 29 842"
+    }
+  },
+  {
+    "id_validation": 44,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 13,
+    "libelle": "BRANCHEMENTS RESEAUX COURANTS FORTS",
+    "texte_source": " La fourniture et pose de 2 fourreaux Ø 63 mm aiguillés entre le regard extérieur et le TGBT (fourreaux en attentes à",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "réseau"
+      ],
+      "diametres": [
+        "Ø 63 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 63.0,
+          "unite": "mm",
+          "texte_source": "63 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5-8",
+      "texte_source": " La fourniture et pose de 2 fourreaux Ø 63 mm aiguillés entre le regard extérieur et le TGBT (fourreaux en attentes à",
+      "diametre": [
+        "Ø 63 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 45,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 10,
+    "libelle": "Béton banché",
+    "texte_source": "En infrastructure, béton dosé à 300 kg/m3 CPA 45 avec agrégats de quartz ou de granite d’une",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton"
+      ],
+      "dosages": [
+        "300 kg/m³"
+      ],
+      "mesures": [
+        {
+          "valeur": 300.0,
+          "unite": "kg",
+          "texte_source": "300 kg"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5.4",
+      "texte_source": "En infrastructure, béton dosé à 300 kg/m3 CPA 45 avec agrégats de quartz ou de granite d’une",
+      "dosage": [
+        "300 kg/m3"
+      ]
+    }
+  },
+  {
+    "id_validation": 46,
+    "type_document": "CCTP",
+    "fichier_source": "CCTP LOT 01B GROS OEUVRE MACONNERIE STRUCTURE METALLIQUE.pdf",
+    "page": 31,
+    "libelle": "Bancs en béton préfabriqué",
+    "texte_source": "- Épaisseurs suivant études d'exécution. Forfaitairement épaisseur minimale à 10cm. - Béton blanc C25/30",
+    "predictions_nlp": {
+      "materiaux": [
+        "béton"
+      ],
+      "classes_beton": [
+        "C25/30"
+      ],
+      "epaisseurs": [
+        "épaisseur minimale à 10 cm"
+      ],
+      "mesures": [
+        {
+          "valeur": 10.0,
+          "unite": "cm",
+          "texte_source": "10cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "3.4.3",
+      "texte_source": "- Épaisseurs suivant études d'exécution. Forfaitairement épaisseur minimale à 10cm. - Béton blanc C25/30",
+      "classe_beton": [
+        "C25/30"
+      ],
+      "epaisseur": [
+        "épaisseur minimale à 10cm"
+      ]
+    }
+  },
+  {
+    "id_validation": 47,
+    "type_document": "DQE",
+    "fichier_source": "Cadre de devis_0.pdf",
+    "page": 2,
+    "libelle": "Création de receveur de douche au sol d'une garde d'eau minimale de 2 cm sous le niveau courant du carrelage des vestiaires",
+    "texte_source": "4.3 Création de receveur de douche au sol d'une garde d'eau minimale de 2 cm sous le niveau courant du carrelage des vestiaires u 2",
+    "predictions_nlp": {
+      "materiaux": [
+        "carrelage"
+      ],
+      "mesures": [
+        {
+          "valeur": 2.0,
+          "unite": "cm",
+          "texte_source": "2 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "4.3",
+      "unite": "u",
+      "quantite": 2.0,
+      "prix_unitaire": null,
+      "prix_total": null,
+      "controle_calcul": "incomplet",
+      "texte_source": "4.3 Création de receveur de douche au sol d'une garde d'eau minimale de 2 cm sous le niveau courant du carrelage des vestiaires u 2"
+    }
+  },
+  {
+    "id_validation": 48,
+    "type_document": "DQE",
+    "fichier_source": "document_Devis.pdf",
+    "page": 2,
+    "libelle": "Fourniture et pose de 3 fenêtres en panneaux pleins de 1,2m x 1,2 m avec barreaux de défense en fers de 16 mm espacés de 15 cm et protégés par des gaines plastiques",
+    "texte_source": "6.1 Fourniture et pose de 3 fenêtres en panneaux pleins de 1,2m x 1,2 m avec barreaux de défense en fers de 16 mm espacés de 15 cm et protégés par des gaines plastiques U 3 105 000 315 000",
+    "predictions_nlp": {
+      "mesures": [
+        {
+          "valeur": 16.0,
+          "unite": "mm",
+          "texte_source": "16 mm"
+        },
+        {
+          "valeur": 15.0,
+          "unite": "cm",
+          "texte_source": "15 cm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "numero_poste": "6.1",
+      "unite": "U",
+      "quantite": 3.0,
+      "prix_unitaire": 105000.0,
+      "prix_total": 315000.0,
+      "controle_calcul": "valide",
+      "texte_source": "6.1 Fourniture et pose de 3 fenêtres en panneaux pleins de 1,2m x 1,2 m avec barreaux de défense en fers de 16 mm espacés de 15 cm et protégés par des gaines plastiques U 3 105 000 315 000"
+    }
+  },
+  {
+    "id_validation": 49,
+    "type_document": "CCTP",
+    "fichier_source": "10ST2023_COUPVRAY-TENNIS_CCTP-LOT-1.pdf",
+    "page": 13,
+    "libelle": "RESEAUX COURANTS FAIBLES",
+    "texte_source": " La fourniture et pose de 2 fourreaux Ø 63 mm aiguillés entre le regard extérieur et le TGBT (fourreaux en attentes à",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "réseau"
+      ],
+      "diametres": [
+        "Ø 63 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 63.0,
+          "unite": "mm",
+          "texte_source": "63 mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "5-6",
+      "texte_source": " La fourniture et pose de 2 fourreaux Ø 63 mm aiguillés entre le regard extérieur et le TGBT (fourreaux en attentes à",
+      "diametre": [
+        "Ø 63 mm"
+      ]
+    }
+  },
+  {
+    "id_validation": 50,
+    "type_document": "CCTP",
+    "fichier_source": "BFA21003-10013_CCTP.pdf",
+    "page": 14,
+    "libelle": ". Garde-corps métalliques – Barrières et Rampes",
+    "texte_source": "Les poteaux sont de diamètre 63mm espacés de 1m maximum fixés à plat (à la française) à même le",
+    "predictions_nlp": {
+      "ouvrages_equipements": [
+        "poteau"
+      ],
+      "diametres": [
+        "diamètre 63 mm"
+      ],
+      "mesures": [
+        {
+          "valeur": 63.0,
+          "unite": "mm",
+          "texte_source": "63mm"
+        }
+      ]
+    },
+    "validation": {
+      "statut": "a_valider",
+      "predictions_incorrectes": {},
+      "entites_manquantes": {},
+      "commentaire": ""
+    },
+    "donnees_source": {
+      "section": "3.1",
+      "texte_source": "Les poteaux sont de diamètre 63mm espacés de 1m maximum fixés à plat (à la française) à même le",
+      "diametre": [
+        "diamètre 63mm"
+      ]
+    }
+  }
+]

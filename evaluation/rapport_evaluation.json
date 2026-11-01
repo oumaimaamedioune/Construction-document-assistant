@@ -1,0 +1,58 @@
+{
+  "avertissement": "Les métriques portent uniquement sur les éléments validés manuellement.",
+  "annotations": {
+    "cctp": {
+      "validees": 20,
+      "total": 20
+    },
+    "dqe": {
+      "validees": 12,
+      "total": 12
+    }
+  },
+  "metriques_cctp": {
+    "vrais_positifs": 20,
+    "faux_positifs": 0,
+    "faux_negatifs": 0,
+    "precision": 1.0,
+    "rappel": 1.0,
+    "f1": 1.0
+  },
+  "metriques_dqe": {
+    "corrects": 60,
+    "total_annotes": 60,
+    "exactitude_globale": 1.0,
+    "par_champ": {
+      "numero_poste": {
+        "corrects": 12,
+        "total_annotes": 12,
+        "exactitude": 1.0
+      },
+      "designation": {
+        "corrects": 12,
+        "total_annotes": 12,
+        "exactitude": 1.0
+      },
+      "unite": {
+        "corrects": 12,
+        "total_annotes": 12,
+        "exactitude": 1.0
+      },
+      "quantite": {
+        "corrects": 12,
+        "total_annotes": 12,
+        "exactitude": 1.0
+      },
+      "prix_unitaire": {
+        "corrects": 6,
+        "total_annotes": 6,
+        "exactitude": 1.0
+      },
+      "prix_total": {
+        "corrects": 6,
+        "total_annotes": 6,
+        "exactitude": 1.0
+      }
+    }
+  }
+}

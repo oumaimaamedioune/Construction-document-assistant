@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Streamlit / secrets
+.streamlit/secrets.toml
+.env
+*.env
+
+# Ollama / modèles (très important)
+*.gguf
+models/
+ollama/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires / résultats lourds
+*.pdf
+*.docx
+*.pptx
+results/
+output/
+tmp/
+temp/
+*.log
+*.json.bak
+annotations_*.json
+resultats_*.json
+
+# Base de données locales
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Fichiers temporaires spécifiques au projet
+.codex_inspect.py
+tmp_app_snippet.png
+# Résultats et fichiers générés
+presentation_build/
+rapport_execution.json
+# Fichiers de configuration sensibles
+.env.*
+!.env.example

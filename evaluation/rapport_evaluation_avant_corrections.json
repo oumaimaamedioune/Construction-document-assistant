@@ -1,0 +1,17 @@
+{
+  "description": "Référence mesurée sur 5 annotations CCTP et 5 annotations DQE avant les corrections de non-régression.",
+  "metriques_cctp": {
+    "vrais_positifs": 6,
+    "faux_positifs": 4,
+    "faux_negatifs": 1,
+    "precision": 0.6,
+    "rappel": 0.8571,
+    "f1": 0.7059
+  },
+  "metriques_dqe": {
+    "corrects": 18,
+    "total_annotes": 20,
+    "exactitude_globale": 0.9,
+    "exactitude_designation": 0.6
+  }
+}
